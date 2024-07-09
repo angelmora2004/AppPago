@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="321dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginBottom="660dp"
+        android:gravity="center"
+        android:text="PAGO DE PROPINA AL MOZO"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="133dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="154dp"
+        android:layout_marginEnd="252dp"
+        android:layout_marginBottom="535dp"
+        android:gravity="center"
+        android:text="TOTAL:"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="141dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="218dp"
+        android:layout_marginEnd="244dp"
+        android:layout_marginBottom="456dp"
+        android:gravity="center"
+        android:text="NUMERO:"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="132dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="318dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="389dp"
+        android:gravity="center"
+        android:text="PORCENTAJE:"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edt_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="187dp"
+        android:layout_marginTop="154dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="532dp"
+        android:ems="10"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:text="Ingresa total:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edt_numero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="186dp"
+        android:layout_marginTop="245dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="441dp"
+        android:ems="10"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:text="Ingresa numero:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edt_otros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="359dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="327dp"
+        android:ems="10"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:text="Ingresa Porcentaje:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtPropina"
+        android:layout_width="122dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="159dp"
+        android:text="Propina"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_calcular"
+        android:layout_width="136dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="614dp"
+        android:layout_marginEnd="225dp"
+        android:layout_marginBottom="59dp"
+        android:text="CALCULAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_salir"
+        android:layout_width="138dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="614dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="58dp"
+        android:text="SALIR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/rgrupo"
+        android:layout_width="114dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="359dp"
+        android:layout_marginEnd="281dp"
+        android:layout_marginBottom="209dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/r15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15%" />
+
+        <RadioButton
+            android:id="@+id/r20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20%" />
+
+        <RadioButton
+            android:id="@+id/rotros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="otros" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
